@@ -12,7 +12,6 @@ def start_pygame_window(text):
     win = pygame.display.set_mode((WIDTH, HEIGHT))
     pygame.display.set_caption("Celebration")
 
-    #text_font = pygame.font.SysFont("calibri", 60, 'bold')
     text_font = pygame.font.SysFont("Comic Sans MS", 60, bold=True)
 
     def draw_text(text, font, text_col, x, y):
