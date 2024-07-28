@@ -235,7 +235,7 @@ label = tk.Label(root, text="Enter your celebration text:",
                  font='arial 15 bold',bg='light blue')
 label.place(x=110,y=25)
 
-entry = tk.Entry(root, width=25, font=("Arial", 20))
+entry = tk.Entry(root, width=25, font='arial 20 bold')
 entry.place(x=55,y=75)
 
 # Create a button to trigger the Pygame window
